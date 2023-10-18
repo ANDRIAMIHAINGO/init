@@ -15,7 +15,14 @@ export default function Header() {
           <input type='search' placeholder='Search for more content'/>  
        </div>
        <div className='rigthheader'>
-           
+          <Link to='/' className='linkedin'>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <p>Linkedin</p>
+          </Link>
+          <Link to='/' className='Githublinkbtn'>
+             <ion-icon name="logo-github"></ion-icon>
+             <p>GitHub</p>
+          </Link>
        </div>
      </header>
   )

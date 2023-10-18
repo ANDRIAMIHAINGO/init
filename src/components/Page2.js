@@ -4,7 +4,7 @@ import Backhome from './Backhome'
 
 export default function Page2() {
   return (
-    <div>
+    <div style={{backgroundColor:'black', height:'200vh'}}>
       <Header/>
       <Backhome/>
       <h1>Page2</h1>

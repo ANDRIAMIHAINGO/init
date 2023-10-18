@@ -1,5 +1,6 @@
 import React from 'react'
 import jissoo from './img/jissoo.webp'
+import programmer from './img/widelap.jpg'
 import koreanstreet from './img/koreanstreet.jpg'
 import {Link} from 'react-router-dom'
 
@@ -19,6 +20,7 @@ export default function Section() {
               </div>
             </Link>
             <div className='box3'>
+               <img src={programmer} alt='istockphoto'/>
             </div> 
         </div>
         <div className='troiddimentionbox'>
