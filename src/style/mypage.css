@@ -1,0 +1,40 @@
+.mypage nav{
+    width: 100%;
+    height: 30px;
+    font-size: small;
+    font-weight: 600;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(73, 55, 89);
+    background-color: rgb(216, 208, 228);
+    background-color: rgb(247, 246, 249);
+
+}
+.mycontainerbox{
+    width: 100%;
+    min-height:200px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    /* justify-content: center; */
+    padding-top: 20px;
+    gap: 50px;
+}
+.mynameandother{
+    font-size: small;
+    font-weight: 600;
+}
+.btninmypage{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(193, 167, 217);
+    border-radius: 5px;
+}
+.myimg{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(176, 136, 206);
+    border-radius: 50%;
+}
